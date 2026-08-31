@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
-    <meta http-equiv="refresh" content="0; url=https://dim-stan-todo.dsomoguy.chatgpt.site/" />
     <title>À deux — Dim + Stan</title>
     <style>
       :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #f4f1eb; color: #1d1d1a; }
@@ -26,7 +25,10 @@
       <div class="mark">À<span>2</span></div>
       <h1>Ouverture de votre espace…</h1>
       <p>La connexion est réservée à Dim et Stan.</p>
-      <a href="https://dim-stan-todo.dsomoguy.chatgpt.site/">Ouvrir À deux</a>
+      <a id="open-a-deux" href="https://dim-stan-todo.dsomoguy.chatgpt.site/">Ouvrir À deux</a>
+      <script>
+        document.getElementById('open-a-deux').href = destination + window.location.search + window.location.hash;
+      </script>
     </main>
   </body>
 </html>
